@@ -2,6 +2,7 @@
 I've used Support . Vector Machine, Multilayer Perceptron, and Convolutional . Neural Network. The comparison between these algorithms is carried out on the base of their delicacy, crimes, and .testing- training time corroborated by plots and maps that have been constructed using matplotlib for visualization.
 
 **Technology Used in the project :-**
+
 I have developed this project using the below technology
 HTML : Page layout has been designed in HTML
 CSS : CSS has been used for all the desigining part
@@ -10,6 +11,7 @@ Python : All the business logic has been implemented in Python
 Flask: Project has been developed over the Flask Framework
 
 **Datasets Details : -**
+
 The MNIST dataset is an acronym that stands for the Modified National Institute of Standards and Technology dataset.
 
 It is a dataset of 60,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9.
