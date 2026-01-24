@@ -1,4 +1,3 @@
-# Handwritten-Digit-Recognition-
 <div align="center">
 
 # ✍️ Handwritten Digit Recognition using Machine Learning & Deep Learning
