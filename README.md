@@ -1,42 +1,147 @@
 # Handwritten-Digit-Recognition-
-I've used Support . Vector Machine, Multilayer Perceptron, and Convolutional . Neural Network. The comparison between these algorithms is carried out on the base of their delicacy, crimes, and .testing- training time corroborated by plots and maps that have been constructed using matplotlib for visualization.
+<div align="center">
 
-**Technology Used in the project :-**
+# ✍️ Handwritten Digit Recognition using Machine Learning & Deep Learning
 
-I have developed this project using the below technology
+A comparative study of **SVM, Multilayer Perceptron (MLP), and Convolutional Neural Network (CNN)**  
+for recognizing handwritten digits using the **MNIST dataset**
 
-HTML : Page layout has been designed in HTML
+</div>
 
-CSS : CSS has been used for all the desigining part
+---
 
-JavaScript : All the validation task and animations has been developed by JavaScript
+## 📌 Project Overview
+Handwritten Digit Recognition is a classic and important problem in **pattern recognition and computer vision**.  
+This project focuses on recognizing digits (0–9) from handwritten images using **multiple machine learning and deep learning algorithms** and comparing their performance.
 
-Python : All the business logic has been implemented in Python
+The comparison is carried out based on:
+- Accuracy  
+- Error rate  
+- Training & Testing time  
 
-Flask: Project has been developed over the Flask Framework
+Visualization is done using **Matplotlib** for better analysis.
 
-**Datasets Details : -**
+---
 
-The MNIST dataset is an acronym that stands for the Modified National Institute of Standards and Technology dataset.
+## 🤖 Algorithms Used
+- **Support Vector Machine (SVM)**
+- **Multilayer Perceptron (MLP)**
+- **Convolutional Neural Network (CNN)**
 
-It is a dataset of 60,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9.
+Each model is trained and evaluated on the same dataset to ensure a fair comparison.
 
-The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively.
+---
 
-It is a widely used and deeply understood dataset and, for the most part, is “solved.” Top-performing models are deep learning convolutional neural networks that achieve a classification accuracy of above 99%, with an error rate between 0.4 %and 0.2% on the hold out test dataset.
+## 📊 Dataset Details (MNIST)
+The **MNIST dataset** stands for **Modified National Institute of Standards and Technology** dataset.
 
-Handwritten character recognition is an extensive exploration area that formerly contains detailed ways of perpetration which include major literacy datasets, popular algorithms,  . features scaling and point birth styles. MNIST dataset ( Modified National Institute of Norms and Technology database) is the subset of the NIST dataset which is a combination of two of NIST’s databases Special.  Database 1 and Special Database 3. Special Database 1 and Special Database 3 correspond of integers written by high academy scholars and workers of the United States Census Bureau,.  independently. MNIST contains a aggregate of handwritten . number images (- training set and- test set) in .  28x28 pixel bounding box andanti-aliased. All these images have corresponding Y values which apprises what the number
+| Property | Details |
+|--------|--------|
+| Total Images | 70,000 |
+| Training Images | 60,000 |
+| Testing Images | 10,000 |
+| Image Size | 28 × 28 pixels |
+| Image Type | Grayscale |
+| Classes | Digits (0 – 9) |
 
-**Implementation Steps : -**
+### 📘 About the Dataset
+- MNIST is a subset of the original **NIST dataset**
+- It contains handwritten digits written by:
+  - High school students  
+  - Employees of the US Census Bureau  
+- The dataset is **well-balanced, clean, and widely used**
+- State-of-the-art CNN models achieve **>99% accuracy**
 
-Import the libraries and load the dataset
+---
 
-Preprocess the data
+## 🧪 Methodology
+1. Load and explore the MNIST dataset  
+2. Preprocess the image data  
+3. Train SVM, MLP, and CNN models  
+4. Evaluate models on test data  
+5. Compare results using graphs and metrics  
+6. Deploy prediction system using a web interface  
 
-Create the model
+---
 
-Train the model
+## 📐 Performance Evaluation
+The models are compared based on:
+- **Accuracy**
+- **Error rate**
+- **Training time**
+- **Testing time**
 
-Evaluate the model
+📊 Graphs and plots are generated using **Matplotlib** for visual comparison.
 
-Create GUI to predict digits
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- **HTML** – Page structure  
+- **CSS** – Styling and layout  
+- **JavaScript** – Validation and animations  
+
+### Backend
+- **Python** – Core logic and ML models  
+- **Flask** – Web framework for deployment  
+
+### Libraries
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Scikit-learn  
+- TensorFlow / Keras  
+
+---
+
+## ▶️ Implementation Steps
+1. Import required libraries and load MNIST dataset  
+2. Perform data preprocessing and normalization  
+3. Create machine learning and deep learning models  
+4. Train models on training data  
+5. Evaluate models on test data  
+6. Compare results using visualizations  
+7. Build GUI to predict handwritten digits  
+
+---
+
+## 🌐 Web Application
+- User can input or upload a handwritten digit image  
+- The trained model predicts the digit (0–9)  
+- Implemented using **Flask + HTML/CSS/JavaScript**
+
+---
+
+## 📂 Project Structure
+Handwritten-Digit-Recognition/
+│── app.py
+│── model/
+│── static/
+│── templates/
+│── README.md
+
+
+---
+
+## 🚀 Future Enhancements
+- Improve accuracy using advanced CNN architectures  
+- Add real-time digit drawing canvas  
+- Deploy application on cloud  
+- Extend system to handwritten character recognition  
+
+---
+
+## 👨‍💻 Author
+**Ayush Kumar**  
+Artificial Intelligence & Machine Learning  
+India 🇮🇳  
+
+---
+
+## ⭐ Conclusion
+This project demonstrates the effectiveness of **machine learning and deep learning techniques** in handwritten digit recognition.  
+CNN outperforms traditional algorithms, confirming the importance of deep learning in image-based tasks.
+
+⭐ *If you find this project useful, consider giving it a star on GitHub!*
+
